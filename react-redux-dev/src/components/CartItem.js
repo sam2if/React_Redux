@@ -16,7 +16,7 @@ const CartItem = ({ id, img, title, price, amount }) => {
             dispatch(removeItem(id));
           }}
         >
-          remove
+          Remove
         </button>
       </div>
       <div>
